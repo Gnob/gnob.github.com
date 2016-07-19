@@ -1,0 +1,121 @@
+body {
+	padding-top: 52px;
+}
+
+.content-wrapper {
+	padding-top: 200px;
+}
+
+.navbar-eyear {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    background-color: rgba(20,40,50,1);
+	height: 52px;
+	padding: 0px;
+}
+
+.navbar-eyear .navbar-brand {
+	padding: 0px;
+}
+
+.navbar-eyear .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-eyear .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-eyear .navbar-brand .navbar-toggle:focus,
+.navbar-eyear .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-eyear a {
+    color: #fff;
+}
+
+/* Bottom menu
+.navbar-eyear .nav li {
+    outline: none;
+    background-color: rgba(41,81,139,1);
+	min-width: 77px;
+	text-align: center;
+}
+
+.navbar-eyear .nav li.active {
+    outline: none;
+    background-color: rgba(106,169,184,1);
+}
+*/
+
+.navbar-eyear .nav li {
+    outline: none;
+    background-color: rgba(20,40,50,1);
+	min-width: 77px;
+	height: 52px;
+	text-align: center;
+}
+
+.navbar-eyear .nav li.active {
+    outline: none;
+    background-color: rgba(117,138,163,1);
+}
+
+.navbar-eyear .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+	height: 52px;
+}
+
+.navbar-eyear .nav li a:hover,
+.navbar-eyear .nav li a:focus,
+.navbar-eyear .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+	height: 52px;
+}
+
+.navbar-eyear .navbar-toggle {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-eyear .navbar-toggle .icon-bar {
+    background-color: rgba(255,255,255,1);
+}
+
+.img-block {
+	display: block;
+}
+
+.img-responsive {
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* TODO: Apply to top-nav?
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+		background-color: rgba(50,60,75,1);
+    }
+
+    .navbar-eyear.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+*/
