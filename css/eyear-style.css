@@ -98,7 +98,29 @@ body {
 
 .notice-wrapper {
 	margin-bottom: 85px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background-color: rgba(200,210,218,1);
+}
+
+.board-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.notice-title {
+	font-size: 14px;
+	font-family: Noto Sans CJK KR;
+	display: block;
+	color: #142832;
+}
+
+.notice-article {
+	font-size: 12px;
+	font-family: Noto Sans Light CJK KR;
+	color: #1f3642;
+	margin-top: 21px;
+	margin-left: 28px;
 }
 
 .content-wrapper {
@@ -112,7 +134,7 @@ body {
 }
 
 @font-face {
-	font-family: Noto Sans Mono CJK KR, Noto Sans CJK KR, Noto Sans CJK Light KR, Arial Black;
+	font-family: Noto Sans Mono CJK KR, Noto Sans CJK KR, Noto Sans Light CJK KR, Arial Black;
 	src: url('../fonts/NotoSansMonoCJKkr-Regular.otf') format('otf'), url('../fonts/NotoSansCJKkr-Medium.otf') format('otf'), url('../fonts/NotoSansCJKkr-Light.otf') format('otf');
 }
 
@@ -131,7 +153,7 @@ body {
 
 .purpose-text-wrapper p {
 	font-size: 16px;
-	font-family: Noto Sans CJK Light KR;
+	font-family: Noto Sans Light CJK KR;
 	font-style: italic;
 	display: block;
 	color: #666666;
@@ -164,7 +186,7 @@ body {
 
 .product-detail-wrapper p {
 	font-size: 16px;
-	font-family: Noto Sans CJK Light KR;
+	font-family: Noto Sans Light CJK KR;
 	font-style: italic;
 	display: block;
 	color: #666666;
@@ -229,7 +251,7 @@ body {
 .card-label-nick {
 	display: table-cell;
 	font-size: 12px;
-	font-family: Noto Sans CJK Light KR;
+	font-family: Noto Sans Light CJK KR;
 	font-style: italic;
 	text-align: center;
 	vertical-align: middle;
@@ -253,7 +275,7 @@ body {
 
 .company-address {
 	font-size: 14px;
-	font-family: Noto Sans Mono CJK KR;
+	font-family: Noto Sans Light CJK KR;
 	display: block;
 	color: #ffffff;
 	margin-top: 18px;
@@ -274,7 +296,7 @@ body {
 
 .memo {
 	font-size: 12px;
-	font-family: Noto Sans CJK KR;
+	font-family: Noto Sans Light CJK KR;
 	display: block;
 	color: #ffffff;
 	margin-top: 42px;
