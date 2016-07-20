@@ -85,6 +85,17 @@ body {
     background-color: rgba(255,255,255,1);
 }
 
+#intro {
+	text-align: center;
+	overflow: hidden;
+}
+
+#intro img {
+	position: relative;
+	left: 100%;
+	margin-left: -200%;
+}
+
 .notice-wrapper {
 	margin-bottom: 85px;
 	background-color: rgba(200,210,218,1);
@@ -223,6 +234,50 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	width: 70%;
+}
+
+.contact-wrapper {
+	background-color: rgba(18,117,186,1);
+	margin-top: 35px;
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+.company {
+	font-size: 16px;
+	font-family: Noto Sans CJK KR;
+	display: block;
+	color: #ffffff;
+	margin-top: 27px;
+}
+
+.company-address {
+	font-size: 14px;
+	font-family: Noto Sans Mono CJK KR;
+	display: block;
+	color: #ffffff;
+	margin-top: 18px;
+}
+
+.company-address a:link,
+.company-address a:visited {
+	color: #aaaaaa;
+}
+
+.company-address a:hover {
+	color: #cccccc;
+}
+
+.company-address a:active {
+	color: #eeeeee;
+}
+
+.memo {
+	font-size: 12px;
+	font-family: Noto Sans CJK KR;
+	display: block;
+	color: #ffffff;
+	margin-top: 42px;
 }
 
 .img-center {
