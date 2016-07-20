@@ -126,8 +126,54 @@ body {
 	color: #666666;
 }
 
+.product-wrapper {
+	margin-bottom: 54px;
+}
+
+.product-title {
+	margin-bottom: 34px;
+}
+
+.product-detail-wrapper {
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+
+.product-detail-text-wrapper {
+	padding-left: 32px;
+}
+
+.product-detail-title {
+	font-size: 24px;
+	font-family: Noto Sans Mono CJK KR;
+	display: block;
+	color: #545454;
+	margin-bottom: 28px;
+}
+
+.product-detail-wrapper p {
+	font-size: 16px;
+	font-family: Noto Sans CJK Light KR;
+	font-style: italic;
+	display: block;
+	color: #666666;
+}
+
+.product-detail-btn-wrapper img {
+	margin-top: 5px;
+}
+
+.img-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .img-block {
 	display: block;
+}
+
+.img-inline-block {
+	display: inline-block;
 }
 
 .img-responsive {
