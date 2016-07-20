@@ -1,9 +1,7 @@
 body {
 	padding-top: 52px;
-}
-
-.content-wrapper {
-	padding-top: 200px;
+	background-image: url("../img/bg_pattern_01.png");
+	background-repeat: repeat;
 }
 
 .navbar-eyear {
@@ -85,6 +83,47 @@ body {
 
 .navbar-eyear .navbar-toggle .icon-bar {
     background-color: rgba(255,255,255,1);
+}
+
+.notice-wrapper {
+	margin-bottom: 85px;
+	background-color: rgba(200,210,218,1);
+}
+
+.content-wrapper {
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+
+.purpose-img-wrapper {
+	padding-left: 28px;
+	padding-right: 48px;
+}
+
+@font-face {
+	font-family: Noto Sans Mono CJK KR, Noto Sans CJK KR, Noto Sans CJK Light KR, Arial Black;
+	src: url('../fonts/NotoSansMonoCJKkr-Regular.otf') format('otf'), url('../fonts/NotoSansCJKkr-Medium.otf') format('otf'), url('../fonts/NotoSansCJKkr-Light.otf') format('otf');
+}
+
+.purpose-title {
+	font-size: 30px;
+	font-family: Noto Sans Mono CJK KR;
+	display: block;
+	color: #545454;
+	margin-top: 11px;
+	margin-bottom: 30px;
+}
+
+.purpose-text-wrapper {
+	padding-left: 54px;
+}
+
+.purpose-text-wrapper p {
+	font-size: 16px;
+	font-family: Noto Sans CJK Light KR;
+	font-style: italic;
+	display: block;
+	color: #666666;
 }
 
 .img-block {
