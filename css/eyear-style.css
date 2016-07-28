@@ -160,7 +160,7 @@ body {
 }
 
 @font-face {
-	font-family: Noto Sans Mono CJK KR, Noto Sans CJK KR, Noto Sans Light CJK KR, Arial Black;
+	font-family: 'Noto Sans Mono CJK KR', 'Noto Sans CJK KR', 'Noto Sans Light CJK KR', 'Arial Black';
 	src: url('../fonts/NotoSansMonoCJKkr-Regular.otf') format('otf'), url('../fonts/NotoSansCJKkr-Medium.otf') format('otf'), url('../fonts/NotoSansCJKkr-Light.otf') format('otf');
 }
 
