@@ -1,5 +1,10 @@
+html, body {
+	font-size: 14px;	
+    height: 100%;
+}
+
 body {
-	padding-top: 52px;
+    padding-top: 52px;
 	background-image: url("../img/bg_pattern_01.png");
 	background-repeat: repeat;
 }
@@ -10,6 +15,7 @@ body {
     background-color: rgba(20,40,50,1);
 	height: 52px;
 	padding: 0px;
+	font-size: 1em;
 }
 
 .navbar-eyear .navbar-brand {
@@ -85,15 +91,34 @@ body {
     background-color: rgba(255,255,255,1);
 }
 
-#intro {
-	text-align: center;
+.intro {
 	overflow: hidden;
+    background: url('../img/main_middle_bg.png') center center no-repeat scroll;
+    height: 734px;
 }
 
-#intro img {
-	position: relative;
-	left: 100%;
-	margin-left: -200%;
+.intro-text-wrapper {
+    margin-top: 201px;
+    text-align: right;
+}
+
+/* font-size: 20px */
+.intro-text-wrapper p {
+	font-size: 1.42em;
+	font-family: Noto Sans Light CJK KR;
+	font-style: italic;
+	display: block;
+	color: #fff;
+}
+
+/* font-size: 40px */
+.intro-title {
+	font-size: 2.86em; 
+	font-family: Noto Sans Light CJK KR;
+	display: block;
+	color: #fff;
+	margin-top: 11px;
+	margin-bottom: 50px;
 }
 
 .notice-wrapper {
@@ -104,23 +129,24 @@ body {
 }
 
 .board-wrapper {
+	display: table;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .notice-title {
-	font-size: 14px;
+	font-size: 1em;
 	font-family: Noto Sans CJK KR;
 	display: block;
 	color: #142832;
 }
 
 .notice-article {
-	font-size: 12px;
+	font-size: 0.85em;
 	font-family: Noto Sans Light CJK KR;
 	color: #1f3642;
-	margin-top: 21px;
-	margin-left: 28px;
+	margin-top: 28px;
+	padding-left: 5%;
 }
 
 .content-wrapper {
@@ -139,7 +165,7 @@ body {
 }
 
 .purpose-title {
-	font-size: 30px;
+	font-size: 2.14em;
 	font-family: Noto Sans Mono CJK KR;
 	display: block;
 	color: #545454;
@@ -152,7 +178,7 @@ body {
 }
 
 .purpose-text-wrapper p {
-	font-size: 16px;
+	font-size: 1.14em;
 	font-family: Noto Sans Light CJK KR;
 	font-style: italic;
 	display: block;
@@ -168,16 +194,23 @@ body {
 }
 
 .product-detail-wrapper {
+	position: relative;
 	padding-top: 85px;
 	padding-bottom: 85px;
 }
 
 .product-detail-text-wrapper {
 	padding-left: 32px;
+	height: 100%;
+}
+
+.product-detail-content-wrapper {
+	height: 80%;
+	display: block;
 }
 
 .product-detail-title {
-	font-size: 24px;
+	font-size: 1.71em;
 	font-family: Noto Sans Mono CJK KR;
 	display: block;
 	color: #545454;
@@ -185,77 +218,91 @@ body {
 }
 
 .product-detail-wrapper p {
-	font-size: 16px;
+	font-size: 1.14em;
 	font-family: Noto Sans Light CJK KR;
 	font-style: italic;
 	display: block;
 	color: #666666;
 }
 
+.product-detail-btn-wrapper {
+	height: 20%;
+}
+
 .product-detail-btn-wrapper img {
 	margin-top: 5px;
 }
 
-.card-wrapper {
-	padding-top: 50px;
-	padding-bottom: 50px;
+.people-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .card {
-	display: inline-block;
+    display: inline-block;
     max-width: 100%;
     height: 215px;
-	margin-top: 35px;
-	margin-bottom: 35px;
-	padding-left: 20px;
-	padding-right: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-wrapper {
+    max-width: 247px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-description {
-	color: white;
-	font-size: 12px;
-	font-family: Noto Sans Mono CJK KR;
-	text-align: right;
-	padding-right: 21px;
-	padding-bottom: 15px;
-	width: 100%;
-	height: 71.62%;
+    color: white;
+    font-size: 0.85em;
+    font-family: Noto Sans Mono CJK KR;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 21px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 71.62%;
 }
 
 .card-fill {
-	background-color: rgba(18,117,186,1); 
+    background-color: rgba(18,117,186,1); 
 }
 
 .card-empty {
-	background-color: rgba(225,225,225,1); 
+    background-color: rgba(225,225,225,1); 
 }
 
 .card-label {
-	display: table;
-	background-color: rgba(99,122,130,1); 
-	width: 100%;
-	height: 28.38%;
-	color: white;
+    display: table;
+    background-color: rgba(99,122,130,1); 
+    width: 100%;
+    height: 28.38%;
+    color: white;
 }
 
 .card-label-name {
-	display: table-cell;
-	font-size: 18px;
-	font-family: Noto Sans Mono CJK KR;
-	font-style: italic;
-	text-align: center;
-	vertical-align: middle;
-	width: 30%;
+    display: table-cell;
+    font-size: 1.29em;
+    font-family: Noto Sans Light CJK KR;
+    font-style: italic;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 30%;
 }
 
 .card-label-nick {
-	display: table-cell;
-	font-size: 12px;
-	font-family: Noto Sans Light CJK KR;
-	font-style: italic;
-	text-align: center;
-	vertical-align: middle;
-	width: 70%;
+    display: table-cell;
+    font-size: 0.85em;
+    font-family: Noto Sans Light CJK KR;
+    font-style: italic;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 70%;
 }
 
 .contact-wrapper {
@@ -266,7 +313,7 @@ body {
 }
 
 .company {
-	font-size: 16px;
+	font-size: 1.14em;
 	font-family: Noto Sans CJK KR;
 	display: block;
 	color: #ffffff;
@@ -274,7 +321,7 @@ body {
 }
 
 .company-address {
-	font-size: 14px;
+	font-size: 1em;
 	font-family: Noto Sans Light CJK KR;
 	display: block;
 	color: #ffffff;
@@ -295,7 +342,7 @@ body {
 }
 
 .memo {
-	font-size: 12px;
+	font-size: 0.85em;
 	font-family: Noto Sans Light CJK KR;
 	display: block;
 	color: #ffffff;
@@ -320,6 +367,97 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+@media (max-width: 767px) {
+    .purpose-img { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .purpose-text-wrapper {
+        padding-left: 32px;
+    }
+    
+    .product-detail-text-wrapper {
+        padding-top: 32px;
+        padding-left: 32px;
+        height: 100%;
+    }
+    
+    .card {
+        display: inline-block;
+        max-width: 100%;
+        height: 500px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-wrapper {
+        max-width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px)  {
+    .purpose-img-wrapper {
+        padding-left: 28px;
+        padding-right: 48px;
+    }
+
+    .purpose-text-wrapper {
+        padding-left: 54px;
+    }    
+
+    .product-detail-text-wrapper {
+        padding-left: 32px;
+        height: 100%;
+    }
+
+    .card {
+        display: inline-block;
+        max-width: 100%;
+        height: 215px !important;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-wrapper {
+        max-width: 247px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/* bootstrap is customized
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+*/
 
 /* TODO: Apply to top-nav?
 @media(min-width:767px) {

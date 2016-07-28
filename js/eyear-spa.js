@@ -29,4 +29,49 @@ $(document).ready(function() {
 	$("a").mouseup(function(){
 		$(this).blur();
 	})
+    
+	$('.card-wrapper').flowtype({
+		minimum: 100,
+		maximum: 960,
+		minFont: 6,
+		maxFont: 40,
+		fontRatio: 19
+	});
+
+	$('.product-detail-text-wrapper').flowtype({
+		minimum: 100,
+		maximum: 960,
+		minFont: 8,
+		maxFont: 35,
+		fontRatio: 33
+	});
+
+	$('.purpose-text-wrapper').flowtype({
+		minimum: 100,
+		maximum: 960,
+		minFont: 8,
+		maxFont: 35,
+		fontRatio: 40
+	});
+	
+	$('.intro-text-wrapper').flowtype({
+		minimum: 100,
+		maximum: 960,
+		minFont: 8,
+		maxFont: 40,
+		fontRatio: 60
+	});    
+	
+	$('.board-wrapper').flowtype({
+		minimum: 100,
+		maximum: 960,
+		minFont: 6,
+		maxFont: 40,
+		fontRatio: 13
+	});
+    
+    $('.card').height({
+        widthRatio: 0.87,
+        bodyMaxWidth: 767
+    });
 });
