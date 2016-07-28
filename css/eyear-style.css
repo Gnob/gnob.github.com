@@ -260,7 +260,7 @@ body {
     font-size: 0.85em;
     font-family: Noto Sans Mono CJK KR;
     text-align: right;
-    padding-top: 15px;
+    padding-top: 35px;
     padding-right: 21px;
     padding-bottom: 15px;
     width: 100%;
@@ -291,7 +291,7 @@ body {
     line-height: 0px;
     text-align: center;
     vertical-align: middle;
-    width: 30%;
+    width: 35%;
 }
 
 .card-label-nick {
@@ -302,7 +302,7 @@ body {
     line-height: 0px;
     text-align: center;
     vertical-align: middle;
-    width: 70%;
+    width: 65%;
 }
 
 .contact-wrapper {
