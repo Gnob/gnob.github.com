@@ -105,7 +105,7 @@ body {
 /* font-size: 20px */
 .intro-text-wrapper p {
 	font-size: 1.42em;
-	font-family: Noto Sans Light CJK KR;
+	font-family: "Noto Sans Light CJK KR";
 	font-style: italic;
 	display: block;
 	color: #fff;
@@ -114,7 +114,7 @@ body {
 /* font-size: 40px */
 .intro-title {
 	font-size: 2.86em; 
-	font-family: Noto Sans Light CJK KR;
+	font-family: "Noto Sans Light CJK KR";
 	display: block;
 	color: #fff;
 	margin-top: 11px;
@@ -136,14 +136,14 @@ body {
 
 .notice-title {
 	font-size: 1em;
-	font-family: Noto Sans CJK KR;
+	font-family: "Noto Sans CJK KR";
 	display: block;
 	color: #142832;
 }
 
 .notice-article {
 	font-size: 0.85em;
-	font-family: Noto Sans Light CJK KR;
+	font-family: "Noto Sans Light CJK KR";
 	color: #1f3642;
 	margin-top: 28px;
 	padding-left: 5%;
@@ -160,13 +160,13 @@ body {
 }
 
 @font-face {
-	font-family: 'Noto Sans Mono CJK KR', 'Noto Sans CJK KR', 'Noto Sans Light CJK KR', 'Arial Black';
+	font-family: "Noto Sans Mono CJK KR", "Noto Sans CJK KR", "Noto Sans Light CJK KR", "Arial Black";
 	src: url('../fonts/NotoSansMonoCJKkr-Regular.otf') format('otf'), url('../fonts/NotoSansCJKkr-Medium.otf') format('otf'), url('../fonts/NotoSansCJKkr-Light.otf') format('otf');
 }
 
 .purpose-title {
 	font-size: 2.14em;
-	font-family: Noto Sans Mono CJK KR;
+	font-family: "Noto Sans Mono CJK KR";
 	display: block;
 	color: #545454;
 	margin-top: 11px;
@@ -179,7 +179,7 @@ body {
 
 .purpose-text-wrapper p {
 	font-size: 1.14em;
-	font-family: Noto Sans Light CJK KR;
+	font-family: "Noto Sans Light CJK KR";
 	font-style: italic;
 	display: block;
 	color: #666666;
@@ -211,7 +211,7 @@ body {
 
 .product-detail-title {
 	font-size: 1.71em;
-	font-family: Noto Sans Mono CJK KR;
+	font-family: "Noto Sans Mono CJK KR";
 	display: block;
 	color: #545454;
 	margin-bottom: 28px;
@@ -219,7 +219,7 @@ body {
 
 .product-detail-wrapper p {
 	font-size: 1.14em;
-	font-family: Noto Sans Light CJK KR;
+	font-family: "Noto Sans Light CJK KR";
 	font-style: italic;
 	display: block;
 	color: #666666;
@@ -258,7 +258,7 @@ body {
 .card-description {
     color: white;
     font-size: 0.85em;
-    font-family: Noto Sans Mono CJK KR;
+    font-family: "Noto Sans Mono CJK KR";
     text-align: right;
     padding-top: 35px;
     padding-right: 21px;
@@ -286,7 +286,7 @@ body {
 .card-label-name {
     display: table-cell;
     font-size: 1.29em;
-    font-family: Noto Sans Light CJK KR;
+    font-family: "Noto Sans Light CJK KR";
     font-style: italic;
     text-align: center;
     vertical-align: middle;
@@ -296,7 +296,7 @@ body {
 .card-label-nick {
     display: table-cell;
     font-size: 0.85em;
-    font-family: Noto Sans Light CJK KR;
+    font-family: "Noto Sans Light CJK KR";
     font-style: italic;
     text-align: center;
     vertical-align: middle;
@@ -338,6 +338,7 @@ body {
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 	transition: 0.6s;
 	transform-style: preserve-3d;
 
@@ -375,7 +376,7 @@ body {
 
 .company-address {
 	font-size: 1em;
-	font-family: Noto Sans Light CJK KR;
+	font-family: "Noto Sans Light CJK KR";
 	display: block;
 	color: #ffffff;
 	margin-top: 18px;
@@ -396,7 +397,7 @@ body {
 
 .memo {
 	font-size: 0.85em;
-	font-family: Noto Sans Light CJK KR;
+	font-family: "Noto Sans Light CJK KR";
 	display: block;
 	color: #ffffff;
 	margin-top: 42px;
