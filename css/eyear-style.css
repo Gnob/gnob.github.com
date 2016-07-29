@@ -288,7 +288,6 @@ body {
     font-size: 1.29em;
     font-family: Noto Sans Light CJK KR;
     font-style: italic;
-    line-height: 0px;
     text-align: center;
     vertical-align: middle;
     width: 35%;
@@ -299,7 +298,6 @@ body {
     font-size: 0.85em;
     font-family: Noto Sans Light CJK KR;
     font-style: italic;
-    line-height: 0px;
     text-align: center;
     vertical-align: middle;
     width: 65%;
@@ -369,6 +367,10 @@ body {
 }
 
 @media (max-width: 767px) {
+    .intro-text-wrapper {
+        text-align: center;
+    }
+    
     .purpose-img { 
         margin-left: auto;
         margin-right: auto;

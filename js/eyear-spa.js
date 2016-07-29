@@ -12,6 +12,12 @@ $(document).ready(function() {
 		});
 	});
     
+    $('.product-detail-btn-wrapper a').click(function(e) {
+        e.preventDefault();
+        alert('준비중입니다.');
+        return false;
+    })
+    
 	// Closes the Responsive Menu on Menu Item Click
 	$('.navbar-collapse ul li a').click(function() {
 		$('.navbar-toggle:visible').click();
@@ -50,7 +56,7 @@ $(document).ready(function() {
 	$('.intro-text-wrapper').flowtype({
 		minimum: 100,
 		maximum: 960,
-		minFont: 8,
+		minFont: 10,
 		maxFont: 40,
 		fontRatio: 60
 	});    
