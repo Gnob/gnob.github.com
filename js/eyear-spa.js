@@ -42,7 +42,7 @@ $(document).ready(function() {
 		maximum: 960,
 		minFont: 8,
 		maxFont: 35,
-		fontRatio: 33
+		fontRatio: 35
 	});
 
 	$('.purpose-text-wrapper').flowtype({
@@ -50,7 +50,7 @@ $(document).ready(function() {
 		maximum: 960,
 		minFont: 8,
 		maxFont: 35,
-		fontRatio: 40
+		fontRatio: 42
 	});
 	
 	$('.intro-text-wrapper').flowtype({
@@ -58,7 +58,7 @@ $(document).ready(function() {
 		maximum: 960,
 		minFont: 10,
 		maxFont: 40,
-		fontRatio: 60
+		fontRatio: 61
 	});    
 	
 	$('.board-wrapper').flowtype({
