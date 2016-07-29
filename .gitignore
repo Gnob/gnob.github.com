@@ -46,4 +46,3 @@ _site/
 .env
 
 test-server.py
-fonts/*
