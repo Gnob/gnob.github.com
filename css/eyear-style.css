@@ -296,7 +296,7 @@ body {
 .card-label-name {
     display: table-cell;
     font-size: 1.29em;
-    font-family: "Noto Sans Light CJK KR", "Malgun Gothic", "맑은고딕", "Arial Black";
+    font-family: "Noto Sans Mono CJK KR", "Malgun Gothic", "맑은고딕", "Arial Black";
     font-style: italic;
     text-align: center;
     vertical-align: middle;
